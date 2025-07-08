@@ -20,8 +20,9 @@ Bu saldırı, özellikle halka açık Wi-Fi ağlarında (örneğin kafeler, otel
 
 Kali Linux’ta yüklü değilse şu komutlarla yükleyebilirsin:
 ```bash
-```
 git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+```
+
 cd airgeddon
 ```bash
 bash airgeddon.sh
@@ -75,12 +76,13 @@ Bağlanan cihazların loglarını izle.
 
 Kali Linux veya Parrot OS kullanıyorsan:
 ```bash
-```
 git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+```
+```
 cd airgeddon
 chmod +x airgeddon.sh
 ./airgeddon.sh
-
+```
 ### Başlatınca, root yetkisi isteyecektir.
 
 **🔹 2️⃣ Kablosuz Ağ Kartını Monitör Moduna Al**
@@ -143,8 +145,9 @@ Bağlanan kullanıcı, Wi-Fi şifresini girmeye çalışacak.
 ### Sahte giriş ekranında girilen şifreyi kontrol et.
 
 ```bash
-```
 cat /var/www/html/captured.txt
+```
+
 
 ## Eğer Airgeddon içinden loglara bakmak istiyorsan:
 
